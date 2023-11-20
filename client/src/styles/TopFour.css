@@ -1,0 +1,8 @@
+.TopFour {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7rem;
+    gap: 1rem;
+}

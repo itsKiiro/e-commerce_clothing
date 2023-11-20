@@ -1,0 +1,39 @@
+.SaleAdDivider {
+    margin-top: 7rem;
+    display: flex;
+}
+
+.saleLeftSide {
+    width: 50%;
+}
+
+.saleRightSide {
+    width: 50%;
+    background-color: rgba(223, 217, 217, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saleImage {
+    width: 100%;
+    object-fit: cover;
+}
+
+.saleInfoContainer {
+    font-family: "Montserrat";
+    margin-left: 40px;
+}
+
+.shopNowAd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 1px black;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.shopNowAd:hover {
+    opacity: 0.4;
+}

@@ -1,0 +1,41 @@
+.LandingPageDivider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.trendingBrandsInfo {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+} 
+
+.trendingBrandsInfo > h3 {
+    text-align: center;
+}
+
+.trendingBrands {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.trendingBrands > h1 {
+    opacity: 0.5;
+}
+
+.logoImg {
+    width: 40px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Montserrat";
+}

@@ -1,0 +1,19 @@
+.BestSeller {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: "Montserrat";
+}
+
+.bestSellerHeaderContainer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 27px;
+}

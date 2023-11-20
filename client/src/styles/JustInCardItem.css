@@ -1,0 +1,6 @@
+
+.justInImage {
+    height: 370px;
+    width: 270px;
+    object-fit: cover;
+}

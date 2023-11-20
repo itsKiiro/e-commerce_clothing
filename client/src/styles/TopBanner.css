@@ -1,0 +1,18 @@
+.TopBanner {
+    width: 100%;
+    background-color: #377DFF;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #fff;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
+.TopBanner ion-icon {
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    margin-right: 2rem;
+    cursor: pointer;
+}

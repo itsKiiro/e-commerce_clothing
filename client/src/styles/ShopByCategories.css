@@ -1,0 +1,16 @@
+.ShopByCategories {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding-bottom: 4%;
+}
+
+.ShopByCategoriesHeaderContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 27px;
+}

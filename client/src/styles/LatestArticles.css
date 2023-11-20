@@ -1,0 +1,18 @@
+.latestArticlesHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.LatestArticles {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 7rem;
+    font-family: "Montserrat";
+}
+
+.articlesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
