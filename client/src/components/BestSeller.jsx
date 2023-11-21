@@ -7,12 +7,11 @@ const BestSeller = () => {
     const [bestSeller, setBestSeller] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/best-seller`)
+        fetch(`https://test.backend.crazysoziety.net/api/best-seller`)
         .then((res) => res.json())
         .then((data) => setBestSeller(data))
     })
 
-    console.log(bestSeller)
     return (
         <>
         <div className="bestSellerHeaderContainer">
@@ -21,6 +20,7 @@ const BestSeller = () => {
         <div className="BestSeller">
             {bestSeller.map((item) => (
                 <JustInCardItem 
+                    key={item._id}
                     imageUrl={item.imageUrl}
                     title={item.title}
                     price={item.price}

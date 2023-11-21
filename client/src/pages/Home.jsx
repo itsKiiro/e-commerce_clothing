@@ -9,6 +9,7 @@ import SaleAdDivider from "../components/SaleAdDivider";
 import Promotion from "../components/Promotion";
 import LatestArticles from "../components/LatestArticles";
 import Newsfeed from "../components/Newsfeed";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <Promotion />
             <LatestArticles />
             <Newsfeed />
+            <Footer />
         </div>
     )
 }

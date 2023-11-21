@@ -17,3 +17,16 @@
     font-weight: 600;
     font-size: 27px;
 }
+
+@media(max-width: 1028px) {
+
+    .BestSeller {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .BestSeller > .JustInCardItem > .justInImage {
+        width: 100%;
+        height: 200px;
+    }
+}

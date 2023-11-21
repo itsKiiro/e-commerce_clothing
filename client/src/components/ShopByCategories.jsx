@@ -8,7 +8,7 @@ const ShopByCategories = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/categories`)
+        fetch(`https://test.backend.crazysoziety.net/api/categories`)
         .then((res) => res.json())
         .then((data) => setCategories(data))
     })

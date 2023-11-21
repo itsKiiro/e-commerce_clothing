@@ -1,0 +1,78 @@
+.Footer {
+    padding-top: 7rem;
+    background-color: rgba(223, 217, 217, 0.3);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7rem;
+}
+
+.footerInfoBoxContainer {
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerInfoContainer > h2 {
+    margin-bottom: 2rem;
+}
+
+.footerLink {
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.footerLink:hover {
+    opacity: 0.4;
+}
+
+.newsletterInput {
+    padding: 7px;
+    border-radius: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.FooterDivider {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.copyRightContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payMethodsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.payMethod {
+    width: 40px;    
+    padding: 1rem;
+}
+
+@media(max-width: 1028px) {
+    .footerInfoBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .copyRightContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .payMethod {
+        width: 20px;
+    }
+
+    .newsletterInput {
+        width: 80%;
+    }
+}

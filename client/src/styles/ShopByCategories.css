@@ -14,3 +14,14 @@
     font-weight: 600;
     font-size: 27px;
 }
+
+@media(max-width: 1028px) {
+    .ShopByCategoriesHeaderContainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .ShopByCategories {
+        gap: 2rem;
+    }
+}

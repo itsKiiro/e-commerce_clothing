@@ -16,3 +16,14 @@
     margin-right: 2rem;
     cursor: pointer;
 }
+
+@media(max-width: 1028px) {
+    .TopBanner > h2 {
+        font-size: smaller;
+        padding: 1rem;
+    }
+
+    .TopBanner ion-icon {
+        padding-top: 10px;
+    }
+}

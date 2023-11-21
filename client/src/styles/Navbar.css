@@ -42,3 +42,25 @@
     font-size: 1.4rem;
     cursor: pointer;
 }
+
+.logoContainer ion-icon {
+    display: none;
+}
+
+@media(max-width: 1028px) {
+    .navLinksContainer {
+        display: none;
+    }
+
+    .navIconsContainer {
+        gap: 1.4rem
+    }
+
+    .logoContainer ion-icon {
+        display: flex;
+        position: absolute;
+        left: 0;
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}

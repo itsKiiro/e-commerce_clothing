@@ -6,3 +6,10 @@
     margin-top: 7rem;
     gap: 1rem;
 }
+
+@media(max-width: 1028px) {
+    .TopFour {
+        display: flex;
+        flex-direction: column;
+    }
+}

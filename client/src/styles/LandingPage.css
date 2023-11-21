@@ -45,3 +45,34 @@
 .landingPageButton:hover {
     opacity: 0.7;
 }
+
+
+@media(max-width: 1028px) {
+    .LandingPage {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .leftSideContainer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .rightSideContainer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .landingHeaderContainer {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}

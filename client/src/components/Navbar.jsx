@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
         <div className="Navbar">
             <div className="logoContainer">
+                <ion-icon name="menu-outline"></ion-icon>
                 <h1 className="logo">Shop</h1>
             </div>
             <ul className="navLinksContainer">

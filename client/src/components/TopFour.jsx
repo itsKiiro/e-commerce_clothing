@@ -7,7 +7,7 @@ const TopFour = () => {
     const [topFour, setTopFour] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/top-four-items`)
+        fetch(`https://test.backend.crazysoziety.net/api/top-four-items`)
         .then((res) => res.json())
         .then((data) => setTopFour(data))
     })

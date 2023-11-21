@@ -37,3 +37,23 @@
 .shopNowAd:hover {
     opacity: 0.4;
 }
+
+@media(max-width: 1028px) {
+
+    .SaleAdDivider {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .saleLeftSide {
+        width: 100%;
+        height: max-content;
+    }
+
+    .saleRightSide {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+} 

@@ -8,7 +8,7 @@ const LatestArticleCardItem = ({ imageUrl, title, link }) => {
     return (
         <div className="LatestArticleCardItem">
             <img 
-                src={`http://localhost:8080/images/` + imageUrl}
+                src={`https://test.backend.crazysoziety.net/images/` + imageUrl}
                 alt="blog"
                 className="latestArticleImage"
             />

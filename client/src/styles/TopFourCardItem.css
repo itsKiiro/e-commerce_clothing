@@ -31,3 +31,9 @@
 .topFourTitle {
     font-size: 21px;
 }
+
+@media(max-width: 1028px) {
+    .topFourImage {
+        height: 500px;
+    }
+}

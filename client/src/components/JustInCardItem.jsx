@@ -6,8 +6,8 @@ const JustInCardItem = ({ imageUrl, title, price }) => {
 
     return (
         <div className="JustInCardItem">
-            <img className="justInImage" src={`http://localhost:8080/images/` + imageUrl} alt="item" />
-            <h4>{title}</h4>
+            <img className="justInImage" src={`https://test.backend.crazysoziety.net/images/` + imageUrl} alt="item" />
+            <h4 className="cardItemTitle">{title}</h4>
             <p>{price} €</p>
         </div>
     )

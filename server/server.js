@@ -8,7 +8,9 @@ const bestSellerRoutes = require('./routes/bestSellerRoute.js');
 const latestArticleRoutes = require('./routes/latestArticleRoute.js');
 require('dotenv').config();
 const cors = require('cors');
+const path = require("path");
 
+app.use(express.json());
 app.use(cors());
 app.use('/images', express.static('./db/images'));
 
@@ -26,6 +28,7 @@ app.use("/api", bestSellerRoutes);
 app.use("/api", latestArticleRoutes);
 
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server running on port: ${process.env.PORT}`)
-})
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+	console.log(`Server is running on port ${PORT}`);
+});

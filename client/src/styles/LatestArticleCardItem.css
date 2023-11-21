@@ -3,3 +3,9 @@
     height: 300px;
     object-fit: cover;
 }
+
+@media(max-width: 1028px) {
+    .latestArticleImage {
+        width: 100%;
+    }
+}

@@ -7,7 +7,7 @@ const JustIn = () => {
     const [justInItems, setJustInItems] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/just-in-items`)
+        fetch(`https://test.backend.crazysoziety.net/api/just-in-items`)
         .then((res) => res.json())
         .then((data) => setJustInItems(data))
     })

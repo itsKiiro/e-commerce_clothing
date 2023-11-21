@@ -39,3 +39,19 @@
     gap: 20px;
     font-family: "Montserrat";
 }
+
+@media(max-width: 1028px) {
+    .LandingPageDivider {
+        overflow: hidden;
+    }
+
+    .trendingBrands {
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: space-between;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 2rem;
+    }
+}
